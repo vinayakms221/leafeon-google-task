@@ -11,8 +11,7 @@ from flask_cors import CORS  # Import CORS from flask_cors module
 
 
 app = Flask(__name__)
-CORS(app)  # Apply CORS to your Flask app
-
+CORS(app, resources={r"/api/*": {"origins": "https://leafeon.s3.amazonaws.com"}})
 
 # CLIENT_ID = 'your_client_id'
 # CLIENT_SECRET = 'your_client_secret'
