@@ -37,7 +37,7 @@ jobs:
       # Run Black for backend formatting
       # - run:
       #     name: Apply backend Black formatting
-      #     command: pdm run black .
+      #     command: pdm run black 
 
       # Deploy backend to Heroku
       - run:
