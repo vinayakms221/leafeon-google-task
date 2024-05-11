@@ -9,7 +9,7 @@ jobs:
       CI: "false"
 
     steps:
-      - checkout  # Checkout the source cod
+      - checkout  # Checkout the source code
 
       # Set up Python with PDM
       - run:
